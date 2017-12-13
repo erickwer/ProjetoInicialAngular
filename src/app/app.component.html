@@ -1,0 +1,22 @@
+<nav class="navbar fixed-top navbar-dark navbar-expand-lg " id="navPrincipal">
+  <a class="navbar-brand" routerLink="/">Prova LPW</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
